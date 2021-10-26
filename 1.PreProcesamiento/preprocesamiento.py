@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Created on Wed May  5 20:32:02 2021
 @author: ander
@@ -6,10 +5,12 @@ Created on Wed May  5 20:32:02 2021
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder, StandardScaler
 from sklearn.compose import ColumnTransformer
 from sklearn.model_selection import train_test_split
+
 # PLANTILLA DE PREPROCESAMIENTO DE DATOS
 
 # Importar el Data set
@@ -23,14 +24,20 @@ imputer = imputer.fit(X[:,1:3]) #desde la col 1, hasta la 2 (3 excluido)
 X[:, 1:3] = imputer.transform(X[:,1:3]) #reemplazamiento de valores
 
 #Datos Categóricos
+#LabelEncoder asiganará valores a las categorías por ejemplo 1,2,3,...
+#One Hot Encoder creará una talbla con 0 y 1 para identificar las carategorías
+# ya tenemos numeradas pero es necesario traducir a variable Dummy (tablas con categorias y marcadas con 0 y 1)
+
 labelencoder_X = LabelEncoder()
 X[:, 0] = labelencoder_X.fit_transform(X[:, 0])
-# ya tenemos numeradas pero es necesario traducir a variable Dummy (tablas con categorias y marcadas con 0 y 1)
+
 ct = ColumnTransformer([('one_hot_encoder', OneHotEncoder(categories='auto'), [0])],   
     remainder='passthrough') #constructor
 X = np.array(ct.fit_transform(X), dtype=np.float)
 labelencoder_y = LabelEncoder()
-y = labelencoder_y.fit_transform(y) #no es necesario hacer dummy solo hay si o no
+y = labelencoder_y.fit_transform(y) 
+#no es necesario hacer dummy solo hay si o no
+
 
 # Split en entrenamiento y test
 X_train, X_test, Y_train, Y_test = train_test_split(X,y, test_size=0.2, random_state=0) #random state hace aleatorio la seleccion de train ytest
@@ -39,3 +46,16 @@ X_train, X_test, Y_train, Y_test = train_test_split(X,y, test_size=0.2, random_s
 sc_X = StandardScaler()
 X_train = sc_X.fit_transform(X_train)
 X_test = sc_X.transform(X_test)
+
+
+# Forma actual de codificar variables categorías con label y de ahí one hot encoder
+#Codificación de la variable categórica Estado
+'''
+labelencoder_X = LabelEncoder()
+X[:, 3] = labelencoder_X.fit_transform(X[:, 3])
+onehotencoder = ColumnTransformer(
+    [('one_hot_encoder', OneHotEncoder(), [3])],
+    remainder='passthrough'                         
+)
+X = onehotencoder.fit_transform(X)
+'''
