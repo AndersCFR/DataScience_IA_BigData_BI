@@ -41,11 +41,6 @@ en el aprendizaje de IA.
 Derechos de autor y demás reservados a los autores de cada contenido.
 
 <table>
-<thead>
-  <tr>
-  <th>Recursos base usados en este repo</th>
-  </tr>
-</thead>
 <tr>
   <td>Nombre</td>
   <td>Tipo</td>
@@ -53,13 +48,16 @@ Derechos de autor y demás reservados a los autores de cada contenido.
   <td>Link</td>
 </tr>
 <tr>
-| Machine Learning A-Z | Curso Online | Pago | https://www.udemy.com/course/machinelearning-es |
+  | Machine Learning A-Z | Curso Online | Pago | https://www.udemy.com/course/machinelearning-es |
+</tr>
+<tr>
 | TensorFlow developer certificate | Curso Online | Pago | https://www.udemy.com/course/tensorflow-developer-certificate-machine-learning-zero-to-mastery |
+</tr>
 | Aprensizaje por refuerzo profundo | Curso Online | Pago | https://www.udemy.com/course/aprendizaje-por-refuerzo-profundo |
 | Dive into deep learning | Libro | Gratuito | https://d2l.ai |
 | Machine Learning Foundation (AWS) | Curso Online | Gratuito | https://www.udacity.com/course/aws-machine-learning-foundations--ud065 |
 | Understanding Machine Learning Theory | Libro | NA | https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf |
-</tr> 
+
 </table>
 
 **Por: Anderson Cárdenas**
