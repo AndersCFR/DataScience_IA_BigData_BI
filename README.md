@@ -9,16 +9,19 @@ continuación, sin embargo se debe tener en cuenta que los he modificado para qu
 
 ### ¿Por qué en español?
 
-Aunque este proyecto lo estoy iniciando a finales del 2021, la idea la temgo desde hace dos años y no he decidido empezar sino es hasta ahora, previamente tenía una versión 
+Aunque este proyecto lo estoy iniciando a finales del 2021, la idea la temgo desde hace dos años y no he decidido empezar sino hasta ahora, previamente tenía una versión 
 de forma local misma que estaba en inglés, sin embargo he notado que hay muy poco contenido para aprender IA en español. El conocimiento es universal y debe ser accesible
-para todos
+para todos.
 
 ### ¿Qué contiene este repo?
 
 Como lo expliqué en la descripción básicamente son plantillas de algoritmos de Inteligencia Artificial (comentadas e intentando que sean fáciles de entender y usar) ... vale pero  específicamente ¿Qué sobre IA? Y pues no tengo una respuesta certera para ello, pero en principio será todo lo que más se pueda (pues me gustaría aprender todo lo de 
-IA auqnue la cosa pinta difícil pues la IA cada día se expande más) pero al menos intentaré abarcar:
+IA auqnue la cosa pinta difícil pues la IA cada día se expande más) pero al menos intentaré abarcar lo siguiente:
 
-Plantillas, pequeños resumenes teóricos y conceptuales de:
+1. Plantillas de código
+2. Pequeños resumenes teóricos y conceptuales.
+
+En las áreas de :
 
 + Preprocesamiento de datos
 + Machine Learning (Supervisado y no Supervisado)
