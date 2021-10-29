@@ -65,6 +65,9 @@ Derechos de autor y demás reservados a los autores de cada contenido.
  <tr>
 <td>Understanding Machine Learning Theory</td><td>Libro</td><td>NA</td><td>https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf</td>
 </tr>
+<tr>
+<td>Sensio</td><td>Canal YouTube</td><td>Gratuito</td><td>https://www.youtube.com/c/sensio-ia</td>
+</tr>
 </table>
 
 **Por: Anderson Cárdenas**
