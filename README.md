@@ -45,9 +45,11 @@ Derechos de autor y demás reservados a los autores de cada contenido.
 <th>Recursos base usados en este repo</th>
 </tr>
 <tr>
-<td>
-| Nombre | Tipo | Tipo Acceso | Link |
-|--|--|--|--|
+  <td>Nombre</td>
+  <td>Tipo</td>
+  <td>Tipo Acceso</td>
+  <td>Link</td>
+</tr>
 | Machine Learning A-Z | Curso Online | Pago | https://www.udemy.com/course/machinelearning-es |
 | TensorFlow developer certificate | Curso Online | Pago | https://www.udemy.com/course/tensorflow-developer-certificate-machine-learning-zero-to-mastery |
 | Aprensizaje por refuerzo profundo | Curso Online | Pago | https://www.udemy.com/course/aprendizaje-por-refuerzo-profundo |
@@ -55,7 +57,6 @@ Derechos de autor y demás reservados a los autores de cada contenido.
 | Machine Learning Foundation (AWS) | Curso Online | Gratuito | https://www.udacity.com/course/aws-machine-learning-foundations--ud065 |
 | Understanding Machine Learning Theory | Libro | NA | https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf |
 
-</td>
 </tr> 
 </table>
 
