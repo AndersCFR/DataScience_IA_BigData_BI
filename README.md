@@ -18,8 +18,8 @@ para todos.
 Como lo expliqué en la descripción básicamente son plantillas de algoritmos de Inteligencia Artificial (comentadas e intentando que sean fáciles de entender y usar) ... vale pero  específicamente ¿Qué sobre IA? Y pues no tengo una respuesta certera para ello, pero en principio será todo lo que más se pueda (pues me gustaría aprender todo lo de 
 IA auqnue la cosa pinta difícil pues la IA cada día se expande más) pero al menos intentaré abarcar lo siguiente:
 
-1. Plantillas de código
-2. Pequeños resumenes teóricos y conceptuales.
+1. Plantillas de código.
+2. Resumenes teóricos. Por cada sección se intentará dar una explicación conceptual del algoritmo en cuestión así como también formulas y ecuaciones matemáticas relevantes.
 
 En las áreas de :
 
@@ -71,6 +71,13 @@ Derechos de autor y demás reservados a los autores de cada contenido.
 <tr>
 <td>Sensio</td><td>Canal YouTube</td><td>Gratuito</td><td>https://www.youtube.com/c/sensio-ia</td>
 </tr>
+<tr>
+<td>Computer Vision Zone</td><td>Cursos/YouTube</td><td>Gratuito y Pago</td><td>https://www.computervision.zone</td>
+</tr>
+<tr>
+<td>Artificial Intelligence: A modern approach</td><td>Libro</td><td>Pago</td><td>http://aima.cs.berkeley.edu</td>
+</tr>
+
 </table>
 
 **Autor:** Anderson
