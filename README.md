@@ -5,7 +5,7 @@
 Este repositorio es una especie de "libro" digital cuyo objetivo principal es ser un soporte de plantillas de algoritmos implementados  de Inteligencia Artificial
 que obtenga durante mi aprendizaje de esta hermosa área de la ciencia y además pequeños apuntes que puedan ser de utilidad. Muchos de los algoritmos mostrados aquí serán 
 obtenidos de diversas fuentes como se detallará a 
-continuación, sin embargo se debe tener en cuenta que los he modificado para que sean ejecutables en las versiones actuales de las librerías y trataré de mantenerlo así siempre.
+continuación, sin embargo se debe tener en cuenta que los he modificado para que sean ejecutables en las versiones actuales de las librerías, traducido o mejoradas con la finalidad de que sena usables.
 
 ### ¿Por qué en español?
 
