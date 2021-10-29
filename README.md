@@ -51,13 +51,20 @@ Derechos de autor y demás reservados a los autores de cada contenido.
   <td>Machine Learning A-Z</td><td>Curso Online</td><td>Pago</td><td>https://www.udemy.com/course/machinelearning-es</td>
 </tr>
 <tr>
-| TensorFlow developer certificate | Curso Online | Pago | https://www.udemy.com/course/tensorflow-developer-certificate-machine-learning-zero-to-mastery |
+  <td>TensorFlow developer certificate</td><td>Curso Online</td><td>Pago</td><td>https://www.udemy.com/course/tensorflow-developer-certificate-machine-learning-zero-to-mastery</td>
 </tr>
-| Aprensizaje por refuerzo profundo | Curso Online | Pago | https://www.udemy.com/course/aprendizaje-por-refuerzo-profundo |
-| Dive into deep learning | Libro | Gratuito | https://d2l.ai |
-| Machine Learning Foundation (AWS) | Curso Online | Gratuito | https://www.udacity.com/course/aws-machine-learning-foundations--ud065 |
-| Understanding Machine Learning Theory | Libro | NA | https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf |
-
+<tr>  
+<td>Aprensizaje por refuerzo profundo</td><td>Curso Online</td><td>Pago</td><td>https://www.udemy.com/course/aprendizaje-por-refuerzo-profundo</td>
+ </tr>
+ <tr>
+<td>Dive into deep learning</td><td>Libro</td><td>Gratuito</td><td>https://d2l.ai</td>
+ </tr>
+ <tr>
+<td>Machine Learning Foundation (AWS)</td><td>Curso Online</td><td>Gratuito</td><td>https://www.udacity.com/course/aws-machine-learning-foundations--ud065</td>
+ </tr>
+ <tr>
+<td>Understanding Machine Learning Theory</td><td>Libro<td><td>NA</td><td>https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf</td>
+</tr>
 </table>
 
 **Por: Anderson Cárdenas**
