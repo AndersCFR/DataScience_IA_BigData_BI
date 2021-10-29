@@ -73,6 +73,6 @@ Derechos de autor y demás reservados a los autores de cada contenido.
 </tr>
 </table>
 
-**Autor: ** Anderson
+**Autor:** Anderson
 
 *La IA es solo otro intento más de conocernos*
