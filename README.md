@@ -73,5 +73,6 @@ Derechos de autor y demás reservados a los autores de cada contenido.
 </tr>
 </table>
 
-**Por: Anderson Cárdenas**
+**Autor: ** Anderson
+
 *La IA es solo otro intento más de conocernos*
