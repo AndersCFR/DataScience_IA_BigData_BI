@@ -2,9 +2,62 @@
 
 ### Descripción
 
-Hace como dos años he venido aprendiendo sobre Inteligencia Artificial. He realizado proyectos como el Detector de Gestos o el proyecto de GANs pero he decidido tomar este curso porque tiene algunos algoritmos que no conocía y me pareció una buena forma de empezar una WiKi de scripts básicos para ML, aunque hay temas que ya domino nunca está demás reforzar conocimiento y tener apuntes y scripts bases para empezar un proyecto grande:
-https://www.udemy.com/course/machinelearning-es/
-De momento esta es la fuente principal de mis apuntes, pero si en mi camino veo algún otro algoritmo lo colocaré.
+Este repositorio es una especie de "libro" digital cuyo objetivo principal es ser un soporte de plantillas de algoritmos implementados  de Inteligencia Artificial
+que obtenga durante mi aprendizaje de esta hermosa área de la ciencia y además pequeños apuntes que puedan ser de utilidad. Muchos de los algoritmos mostrados aquí serán 
+obtenidos de diversas fuentes como se detallará a 
+continuación, sin embargo se debe tener en cuenta que los he modificado para que sean ejecutables en las versiones actuales de las librerías y trataré de mantenerlo así siempre.
+
+### ¿Por qué en español?
+
+Aunque este proyecto lo estoy iniciando a finales del 2021, la idea la temgo desde hace dos años y no he decidido empezar sino es hasta ahora, previamente tenía una versión 
+de forma local misma que estaba en inglés, sin embargo he notado que hay muy poco contenido para aprender IA en español. El conocimiento es universal y debe ser accesible
+para todos
+
+### ¿Qué contiene este repo?
+
+Como lo expliqué en la descripción básicamente son plantillas de algoritmos de Inteligencia Artificial (comentadas e intentando que sean fáciles de entender y usar) ... vale pero  específicamente ¿Qué sobre IA? Y pues no tengo una respuesta certera para ello, pero en principio será todo lo que más se pueda (pues me gustaría aprender todo lo de 
+IA auqnue la cosa pinta difícil pues la IA cada día se expande más) pero al menos intentaré abarcar:
+
+Plantillas, pequeños resumenes teóricos y conceptuales de:
+
++ Preprocesamiento de datos
++ Machine Learning (Supervisado y no Supervisado)
++ Reinforcement Learning (Aunque este es un tipo de Machine Learning, en los últimos años a tomado mucha fuerza y prefiero tratarlo aparte)
++ Deep Learning
++ Computer Vision
++ NLP (Procesamiento del Lenguaje Natural)
++ Sistemas de Recomendación
+
+### ¿Lo sabes todo? ¿De dónde sacas la información?
+
+Si de algo estoy seguro es que tengo muchísimo por aprender, por ello he tomado muchas fuentes de información (algunas gratuitas y otras de pago) de diferente tipo desde cursos
+de pago, tutoriales de YouTube, libros, proyectos abiertos, mi experiencia, mis apuntes Universitarios y conocimiento adquirido en mi comunidad de aprendizaje. Así que con 
+este repo no pretendo llevarme el crédito de todo el material que subiré pues serán modificaciones de alguna de las fuentes anteriores, auqnue tambipen incluirpe contenido 
+de mi propia autoría, dicho esto, extender mi total agradecimiento a todas las personas y organizaciones que se encontraran en la sección de fuentes, gracias por contribuir
+en el aprendizaje de IA.
+
+### Fuentes
+
+Derechos de autor y demás reservados a los autores de cada contenido.
+
+<table>
+<tr>
+<th>Recursos base usados en este repo</th>
+</tr>
+<tr>
+<td>
+| Nombre | Tipo | Tipo Acceso | Link |
+|--|--|--|--|
+| Machine Learning A-Z | Curso Online | Pago | https://www.udemy.com/course/machinelearning-es |
+| TensorFlow developer certificate | Curso Online | Pago | https://www.udemy.com/course/tensorflow-developer-certificate-machine-learning-zero-to-mastery |
+| Aprensizaje por refuerzo profundo | Curso Online | Pago | https://www.udemy.com/course/aprendizaje-por-refuerzo-profundo |
+| Dive into deep learning | Libro | Gratuito | https://d2l.ai |
+| Machine Learning Foundation (AWS) | Curso Online | Gratuito | https://www.udacity.com/course/aws-machine-learning-foundations--ud065 |
+| Understanding Machine Learning Theory | Libro | NA | https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf |
+
+</td>
+</tr> 
+</table>
 
 **Por: Anderson Cárdenas**
 *La IA es solo otro intento más de conocernos*
