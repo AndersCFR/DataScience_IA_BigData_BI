@@ -44,7 +44,6 @@ Derechos de autor y demás reservados a los autores de cada contenido.
 <thead>
   <th>Recursos base usados en este repo</th>
 </thead>
-<tr>
   <td>Nombre</td>
   <td>Tipo</td>
   <td>Tipo Acceso</td>
