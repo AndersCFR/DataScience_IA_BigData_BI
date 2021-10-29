@@ -23,13 +23,19 @@ IA auqnue la cosa pinta difícil pues la IA cada día se expande más) pero al m
 
 En las áreas de :
 
++ IA: Historia, teoría y filosofía
++ Herramientas Básicas de IA
 + Preprocesamiento de datos
 + Machine Learning (Supervisado y no Supervisado)
 + Reinforcement Learning (Aunque este es un tipo de Machine Learning, en los últimos años a tomado mucha fuerza y prefiero tratarlo aparte)
 + Deep Learning
 + Computer Vision
 + NLP (Procesamiento del Lenguaje Natural)
++ Algoritmos Genéticos
++ Series Temporales (Alg. Predictivos y forecasting)
 + Sistemas de Recomendación
++ Algoritmos clásicos de IA
++ Algortimos complementarios
 
 ### ¿Lo sabes todo? ¿De dónde sacas la información?
 
