@@ -42,7 +42,9 @@ Derechos de autor y demás reservados a los autores de cada contenido.
 
 <table>
 <thead>
+  <tr>
   <th>Recursos base usados en este repo</th>
+  </tr>
 </thead>
 <tr>
   <td>Nombre</td>
