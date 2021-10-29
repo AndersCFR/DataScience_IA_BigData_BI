@@ -41,9 +41,9 @@ en el aprendizaje de IA.
 Derechos de autor y demás reservados a los autores de cada contenido.
 
 <table>
-<tr>
+<thead>
   <td> <th>Recursos base usados en este repo</th> </td>
-</tr>
+</thead>
 <tr>
   <td>Nombre</td>
   <td>Tipo</td>
