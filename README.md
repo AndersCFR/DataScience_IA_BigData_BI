@@ -48,7 +48,7 @@ Derechos de autor y demás reservados a los autores de cada contenido.
   <td>Link</td>
 </tr>
 <tr>
-  | Machine Learning A-Z | Curso Online | Pago | https://www.udemy.com/course/machinelearning-es |
+  <td>Machine Learning A-Z</td><td>Curso Online</td><td>Pago</td><td>https://www.udemy.com/course/machinelearning-es</td>
 </tr>
 <tr>
 | TensorFlow developer certificate | Curso Online | Pago | https://www.udemy.com/course/tensorflow-developer-certificate-machine-learning-zero-to-mastery |
