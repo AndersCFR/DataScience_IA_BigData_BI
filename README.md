@@ -35,7 +35,7 @@ En las áreas de :
 
 Si de algo estoy seguro es que tengo muchísimo por aprender, por ello he tomado muchas fuentes de información (algunas gratuitas y otras de pago) de diferente tipo desde cursos
 de pago, tutoriales de YouTube, libros, proyectos abiertos, mi experiencia, mis apuntes Universitarios y conocimiento adquirido en mi comunidad de aprendizaje. Así que con 
-este repo no pretendo llevarme el crédito de todo el material que subiré pues serán modificaciones de alguna de las fuentes anteriores, auqnue tambipen incluirpe contenido 
+este repo no pretendo llevarme el crédito de todo el material que subiré pues serán modificaciones de alguna de las fuentes anteriores, aunque también incluiré contenido 
 de mi propia autoría, dicho esto, extender mi total agradecimiento a todas las personas y organizaciones que se encontraran en la sección de fuentes, gracias por contribuir
 en el aprendizaje de IA.
 
