@@ -63,7 +63,7 @@ Derechos de autor y demás reservados a los autores de cada contenido.
 <td>Machine Learning Foundation (AWS)</td><td>Curso Online</td><td>Gratuito</td><td>https://www.udacity.com/course/aws-machine-learning-foundations--ud065</td>
  </tr>
  <tr>
-<td>Understanding Machine Learning Theory</td><td>Libro<td><td>NA</td><td>https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf</td>
+<td>Understanding Machine Learning Theory</td><td>Libro</td><td>NA</td><td>https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf</td>
 </tr>
 </table>
 
