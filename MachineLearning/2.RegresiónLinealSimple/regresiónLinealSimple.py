@@ -10,13 +10,13 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 # Importar el Data set
 dataset = pd.read_csv("Salary_Data.csv")
-x = dataset.iloc[:, :-1].values 
+x = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, 1].values
 
 # Split en entrenamiento y test
 X_train, X_test, y_train, y_test = train_test_split(x,y, test_size=1/3, random_state=0)
 
-#No necesita que se escalen los valores 
+#No necesita que se escalen los valores
 regresion = LinearRegression()
 regresion.fit(X_train, y_train) #deben tener el mismo valor los dos
 y_pred = regresion.predict(X_test) # Predecir el conjunto de test 
