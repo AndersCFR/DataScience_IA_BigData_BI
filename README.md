@@ -24,7 +24,7 @@ IA auqnue la cosa pinta difícil pues la IA cada día se expande más) pero al m
 En las áreas de :
 
 + IA: Historia, teoría y filosofía
-+ Herramientas Básicas de IA
++ Herramientas de IA
 + Preprocesamiento de datos
 + Machine Learning (Supervisado y no Supervisado)
 + Reinforcement Learning (Aunque este es un tipo de Machine Learning, en los últimos años a tomado mucha fuerza y prefiero tratarlo aparte)
