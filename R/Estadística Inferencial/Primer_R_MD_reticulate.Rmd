@@ -1,0 +1,66 @@
+---
+title: "FirstMD_R"
+author: "Anderson"
+date: "2/12/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Reticulate
+Reticulate es una librería de integración para Python y R, se pueden importar 
+archivos de pyth
+```{r}
+library(reticulate)
+use_python("C:/Users/ander/AppData/Local/Programs/Python/Python38")
+#asignamos toda la librería de os a una variable de R
+os <- import("os")
+# accede a una función de la librería con $
+os$listdir(".")
+
+```
+
+Inclusión de mis clases y funciones de python a través de:
+```{r}
+#source_python("nombreArchivo.py")
+# con esa importación podré usar python de forma normal
+```
+
+Imports con conversión de python y R
+```{r}
+np <- import("numpy", convert = FALSE)
+x <- np$array(c(1:4))
+sum <- x$cumsum()
+print(sum)
+
+# ahora si quiero convertir de un array de python y convertir a R
+py_to_r(sum)
+print(sum)
+```
+
+## Obteniendo ayuda tanto en R como python sobre RStudio
+```{r}
+#documentación de librería de R
+help(py_to_r)
+# documentación de librería Python
+#py_help(numpy$array)
+```
+## Arrays
+```{r}
+a <- np_array(c(1:10), order="C")
+a
+```
+
+## Directamente celda de Python
+Reticulate te permitirá llevar las variables de un lado a otro
+
+```{python}
+import pandas as pd
+
+a = pd.DataFrame({'A':[1,2,3]})
+a
+```
+
+
