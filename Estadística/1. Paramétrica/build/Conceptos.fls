@@ -1,0 +1,91 @@
+PWD c:\Users\ander\Desktop\Estadística\1. Paramétrica
+INPUT C:\Users\ander\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\ander\Desktop\Estadística\1. Paramétrica\Conceptos.tex
+OUTPUT c:\Users\ander\Desktop\Estadística\1. Paramétrica\build\Conceptos.log
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\generic\babel\txtbabel.def
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\babel-spanish\spanish.ldf
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\babel-spanish\spanish.ldf
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\babel-spanish\spanish.ldf
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\babel-spanish\spanish.ldf
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT c:\Users\ander\Desktop\Estadística\1. Paramétrica\build\Conceptos.aux
+INPUT c:\Users\ander\Desktop\Estadística\1. Paramétrica\build\Conceptos.aux
+INPUT c:\Users\ander\Desktop\Estadística\1. Paramétrica\build\Conceptos.aux
+OUTPUT c:\Users\ander\Desktop\Estadística\1. Paramétrica\build\Conceptos.aux
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+OUTPUT c:\Users\ander\Desktop\Estadística\1. Paramétrica\build\Conceptos.pdf
+INPUT C:\Users\ander\AppData\Local\MiKTeX\pdftex\config\pdftex.map
+INPUT c:\Users\ander\Desktop\Estadística\1. Paramétrica\build\Conceptos.aux
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
+INPUT C:\Users\ander\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
