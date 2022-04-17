@@ -82,9 +82,10 @@ ____
 
 HDFS: Hadoop distributed file system, provides access to data across Hadoop clusters. It resolves the three problems: Cost, Speed (read or write more than 1 terabyte of data in a second) and Reliability(it has copies)
 
-![spark](./imgs/fsVSHDFS.PNG)
+![hdfs](./imgs/fsVSHDFS.PNG)
 
 Data is divided in 128 mb of data.
 
+![hdfs](./imgs/hdfsArchitecture.PNG)
 
 
