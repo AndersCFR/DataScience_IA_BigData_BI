@@ -38,7 +38,9 @@
 
 >> x = c(1,2,3,4,5) ó x <- c(4,5,6) ó (85,96,74) -> x
 
-> Instalación de uan paquete
+## Gestión de paquetes
+
+> Instalación de un paquete
 
 >> install.packages("tidyverse")
 
@@ -68,4 +70,3 @@
 
 Jhon Tukey: Estadístico y matemático, trabajó en FFT, además de destacar la
 importancia de visualización en lo que hoy conocemos como EDA.
-
