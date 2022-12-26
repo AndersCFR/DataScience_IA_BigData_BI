@@ -2,6 +2,7 @@
 Created on Sat May 22 17:33:40 2021
 @author: ander
 """ 
+
 #Regresión lineal Simple
 import numpy as np
 import matplotlib.pyplot as plt

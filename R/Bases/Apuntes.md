@@ -70,3 +70,7 @@
 
 Jhon Tukey: Estadístico y matemático, trabajó en FFT, además de destacar la
 importancia de visualización en lo que hoy conocemos como EDA.
+
+
+Para la representación gráfica, los datos numéricos describen los valores y los
+clasificadores o niveles describen la estética que tendrá el gráfico.
