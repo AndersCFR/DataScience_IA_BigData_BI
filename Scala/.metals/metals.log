@@ -1,0 +1,41 @@
+2023.04.08 23:40:13 INFO  Started: Metals version 0.11.11 in workspace '/Users/andersoncardenas/Documents/DataScience_IA_BigData_BI/Scala' for client Visual Studio Code 1.76.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/andersoncardenas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.04.08 23:40:14 INFO  time: initialize in 0.31s
+2023.04.08 23:40:14 WARN  Build server is not auto-connectable.
+2023.04.08 23:40:14 WARN  no build tool detected in workspace '/Users/andersoncardenas/Documents/DataScience_IA_BigData_BI/Scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.04.08 23:40:14 WARN  no build target for: /Users/andersoncardenas/Documents/DataScience_IA_BigData_BI/Scala/project1/build.sbt
+2023.04.08 23:40:14 WARN  no build target for: /Users/andersoncardenas/Documents/DataScience_IA_BigData_BI/Scala/helloscala/src/main/scala/Main.scala
+2023.04.08 23:40:26 INFO  no build target found for /Users/andersoncardenas/Documents/DataScience_IA_BigData_BI/Scala/project1/build.sbt. Using presentation compiler with project's scala-library version: 3.2.2
+2023.04.08 23:40:27 INFO  time: code lens generation in 12s
+2023.04.08 23:40:32 WARN  no build target for: /Users/andersoncardenas/Documents/DataScience_IA_BigData_BI/Scala/helloscala/src/test/scala/MySuite.scala
+2023.04.08 23:40:40 WARN  no build target for: /Users/andersoncardenas/Documents/DataScience_IA_BigData_BI/Scala/helloscala/src/main/scala/Main.scala
+2023.04.08 23:41:59 WARN  no build tool detected in workspace '/Users/andersoncardenas/Documents/DataScience_IA_BigData_BI/Scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.04.08 23:42:01 WARN  no build tool detected in workspace '/Users/andersoncardenas/Documents/DataScience_IA_BigData_BI/Scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.04.08 23:43:27 WARN  no build target for: /Users/andersoncardenas/Documents/DataScience_IA_BigData_BI/Scala/helloscala/src/main/scala/Main.scala
+2023.04.08 23:44:57 WARN  no build tool detected in workspace '/Users/andersoncardenas/Documents/DataScience_IA_BigData_BI/Scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.04.08 23:44:57 WARN  no build tool detected in workspace '/Users/andersoncardenas/Documents/DataScience_IA_BigData_BI/Scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.04.08 23:44:58 WARN  no build tool detected in workspace '/Users/andersoncardenas/Documents/DataScience_IA_BigData_BI/Scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.04.08 23:45:04 WARN  no build tool detected in workspace '/Users/andersoncardenas/Documents/DataScience_IA_BigData_BI/Scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.04.08 23:45:04 WARN  no build tool detected in workspace '/Users/andersoncardenas/Documents/DataScience_IA_BigData_BI/Scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.04.08 23:45:04 WARN  no build tool detected in workspace '/Users/andersoncardenas/Documents/DataScience_IA_BigData_BI/Scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.04.08 23:45:40 INFO  Shutting down server
+2023.04.08 23:45:40 INFO  shutting down Metals
+2023.04.08 23:45:40 INFO  Exiting server
+2023.04.08 23:52:53 INFO  Started: Metals version 0.11.11 in workspace '/Users/andersoncardenas/Documents/DataScience_IA_BigData_BI/Scala' for client Visual Studio Code 1.76.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/andersoncardenas/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.04.08 23:52:54 INFO  time: initialize in 0.43s
+2023.04.08 23:52:55 WARN  Build server is not auto-connectable.
+2023.04.08 23:52:55 WARN  no build tool detected in workspace '/Users/andersoncardenas/Documents/DataScience_IA_BigData_BI/Scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.04.08 23:52:55 WARN  no build target for: /Users/andersoncardenas/Documents/DataScience_IA_BigData_BI/Scala/helloscala/src/main/scala/Main.scala
+2023.04.08 23:52:56 INFO  no build target found for /Users/andersoncardenas/Documents/DataScience_IA_BigData_BI/Scala/helloscala/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.04.08 23:52:56 INFO  time: code lens generation in 2.46s
