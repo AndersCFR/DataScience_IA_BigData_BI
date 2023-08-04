@@ -1,0 +1,4 @@
+[core]
+    remote = origin
+['remote "origin"']
+    url = https://DagsHub.com/databootcamp2021/dagshub_tutorial.dvc
