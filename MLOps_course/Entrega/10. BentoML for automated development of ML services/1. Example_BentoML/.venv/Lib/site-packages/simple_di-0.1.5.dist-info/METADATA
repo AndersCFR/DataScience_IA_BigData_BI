@@ -1,0 +1,103 @@
+Metadata-Version: 2.1
+Name: simple-di
+Version: 0.1.5
+Summary: simple dependency injection library
+Home-page: https://github.com/bentoml/simple_di
+Author: bojiang
+Author-email: bojiang_@outlook.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6.1
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dataclasses ; python_version < "3.7.0"
+Requires-Dist: types-dataclasses ; python_version < "3.7.0"
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: mypy ; extra == 'test'
+
+# simple-di
+
+A simple, strictly typed dependency injection library.
+
+- [Install](#install)
+- [Usage](#usage)
+- [API](#api)
+
+[![mypy-strict](https://github.com/bentoml/simple_di/actions/workflows/mypy.yml/badge.svg)](https://github.com/bentoml/simple_di/actions/workflows/mypy.yml)
+
+[![Python 3.6](https://github.com/bentoml/simple_di/workflows/Python%203.6/badge.svg)](https://github.com/bentoml/simple_di/actions/workflows/py36.yml)
+[![Python 3.7](https://github.com/bentoml/simple_di/workflows/Python%203.7/badge.svg)](https://github.com/bentoml/simple_di/actions/workflows/py37.yml)
+[![Python 3.8](https://github.com/bentoml/simple_di/workflows/Python%203.8/badge.svg)](https://github.com/bentoml/simple_di/actions/workflows/py38.yml)
+[![Python 3.9](https://github.com/bentoml/simple_di/workflows/Python%203.9/badge.svg)](https://github.com/bentoml/simple_di/actions/workflows/py39.yml)
+
+## Install
+
+``` bash
+    pip install simple_di
+```
+
+## Usage
+
+Examples:
+
+```python
+    from simple_di import inject, Provide, Provider, container
+    from simple_di.providers import Static, Factory, Configuration
+
+
+    @container
+    class OptionsClass(container):
+        cpu: Provider[int] = Static(2)
+        worker: Provider[int] = Factory(lambda c: 2 * int(c) + 1, c=cpu)
+
+    Options = OptionsClass()
+
+    @inject
+    def func(worker: int = Provide[Options.worker]):
+        return worker
+
+    assert func() == 5
+    assert func(1) == 1
+
+    Options.worker.set(2)
+    assert func() == 2
+
+    Options.worker.reset()
+    assert func() == 5
+
+    Options.cpu.set(1)
+    assert func() == 3
+```
+
+
+## API
+
+- [container](#container)
+- [sync_container](#sync_container)
+- [inject](#inject)
+- [Provide](#Provide)
+- [providers](#providers)
+  - [Static](#Static)
+  - [Configuration](#Configuration)
+  - [Factory](#Factory)
+  - [SingletonFactory](#SingletonFactory)
+
+## Type annotation supported
+
+
+### inject
+
+Inject values into providers in function/method arguments.
+
+Arguments:
+ - squeeze_none: default False. Treat None value passed in as not passed.
+
+

@@ -1,0 +1,7 @@
+target: LeaveOrNot
+features:
+  - City
+  - PaymentTier
+  - Age
+  - EverBenched
+  - ExperienceInCurrentDomain

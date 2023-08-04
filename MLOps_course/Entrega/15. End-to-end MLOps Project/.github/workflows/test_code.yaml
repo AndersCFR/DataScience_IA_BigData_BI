@@ -1,0 +1,52 @@
+name: Test code and app
+on:
+  pull_request:
+    paths:
+      - config/**
+      - training/**
+      - application/**
+      - .github/workflows/test_training.yaml
+jobs:
+  test_model:
+    name: Test processed code and model
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 
+        id: checkout
+        uses: actions/checkout@v2
+
+      - name: Environment setup
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+          cache: pip
+
+      - name: Cache
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/dev-requirements.txt') }}
+          restore-keys: ${{ runner.os }}-pip-
+        
+      - name: Install packages
+        run: pip install -r dev-requirements.txt
+
+      - name: Pull data
+        run: |
+          dvc remote modify origin --local auth basic
+          dvc remote modify origin --local user ${{ secrets.DAGSHUB_USERNAME }}
+          dvc remote modify origin --local password ${{ secrets.DAGSHUB_TOKEN }}
+          dvc pull -r origin train_model
+
+      - name: Test processed code and ML model
+        run: pytest training/tests
+
+      - name: Save model to BentoML local store
+        run: python application/src/save_model_to_bentoml.py
+
+      - name: Serve the app locally and run app tests
+        run: |
+          bentoml serve ./application/src/create_service.py:service  & 
+          sleep 10
+          pytest application/tests
+          kill -9 `lsof -i:3000 -t`

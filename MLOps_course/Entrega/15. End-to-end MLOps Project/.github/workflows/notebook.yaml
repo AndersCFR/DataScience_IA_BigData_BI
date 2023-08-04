@@ -1,0 +1,47 @@
+name: Adjust notebook
+on: [push]
+
+jobs:
+  add_badges:
+    name: Add Google Colab badge to notebook
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 
+        id: checkout
+        uses: actions/checkout@v2
+
+      - name: Add/Update badges
+        id: badges
+        uses: trsvchn/colab-badge-action@v4
+        with:
+          check: "all"
+          target_branch: master
+          target_repository: DataBootcamp2021/employee_churn
+          update: true
+      
+      - name: Add, commit, and push changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: Add Colab badge
+          push: true
+  black:
+    name: Black Check for Jupyter notebooks
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Checkout 
+        id: checkout
+        uses: actions/checkout@v2
+
+      - name: black
+        uses: jpetrucciani/black-check@master
+        with:
+          path: '.'
+          black_flags: '--exclude ./env/'
+      
+      - name: Add, commit, and push changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: black check
+          push: true
+
+      

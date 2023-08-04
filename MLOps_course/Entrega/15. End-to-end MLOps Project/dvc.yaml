@@ -1,0 +1,26 @@
+stages:
+  process_data:
+    cmd: python training/src/process.py
+    deps:
+    - config/main.yaml
+    - data/raw
+    - training/src/process.py
+    outs:
+    - data/processed:
+        persist: true
+  train_model:
+    cmd: python training/src/train_model.py
+    deps:
+    - config/main.yaml
+    - data/processed
+    - training/src/train_model.py
+    outs:
+    - models/xgboost:
+        persist: true
+  evaluate_model:
+    cmd: python training/src/evaluate_model.py
+    deps:
+    - config/main.yaml
+    - data/processed
+    - models/xgboost
+    - training/src/evaluate_model.py

@@ -1,0 +1,71 @@
+name: Deploy App
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - config/**
+      - training/**
+      - application/**
+      - .github/workflows/deploy_app.yaml
+jobs:
+  deploy_app:
+    name: Deploy App
+    runs-on: ubuntu-latest
+    env:
+      HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+      HEROKU_EMAIL: ${{ secrets.HEROKU_EMAIL }} 
+    steps:
+      - name: Checkout
+        id: checkout
+        uses: actions/checkout@v2
+
+      - name: Environment setup
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+          cache: pip
+
+      - name: Cache
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/application/requirements.txt') }}
+          restore-keys: ${{ runner.os }}-pip-
+
+      - name: Install packages
+        run: pip install -r application/requirements.txt
+
+      - name: Pull data
+        run: |
+          dvc remote modify origin --local auth basic
+          dvc remote modify origin --local user ${{ secrets.DAGSHUB_USERNAME }}
+          dvc remote modify origin --local password ${{ secrets.DAGSHUB_TOKEN }}
+          dvc pull -r origin train_model
+
+      - name: Save model to BentoML local store
+        run: python application/src/save_model_to_bentoml.py
+
+      - name: Build Bentos
+        run: bentoml build
+
+      - name: Heroku login credentials
+        run: |
+          cat > ~/.netrc <<EOF
+            machine api.heroku.com
+              login $HEROKU_EMAIL
+              password $HEROKU_API_KEY
+            machine git.heroku.com
+              login $HEROKU_EMAIL
+              password $HEROKU_API_KEY
+          EOF
+        
+      - name: Login to Heroku container
+        run: heroku container:login
+
+      - name: Containerize Bentos, push it to the Heroku app, and release the app
+        run: |
+          cd $(find ~/bentoml/bentos/predict_employee/ -type d -maxdepth 1 -mindepth 1)/env/docker
+          APP_NAME=employee-predict-1
+          heroku container:push web --app $APP_NAME  --context-path=../..
+          heroku container:release web --app $APP_NAME
