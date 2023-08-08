@@ -20,6 +20,8 @@ help(mpg) #ver documentación del dataset, puedo usar ?mpg
 ggplot(data = mpg) + 
   geom_point(mapping = aes(x = displ, y = hwy)) 
 
+# 1. Ajustes de estéticas basados en variable clase
+
 # Agregando color
 ggplot(data = mpg) + 
   geom_point(mapping = aes(x = displ, y = hwy, color = class)) 
@@ -36,7 +38,7 @@ ggplot(data = mpg) +
 ggplot(data = mpg) + 
   geom_point(mapping = aes(x = displ, y = hwy, shape = class)) 
 
-#Elección manual de estéticas (son definidas fuera del mapeo automático)
+# 2. Elección manual de estéticas (son definidas fuera del mapeo automático)
 # color = string
 # size = tamaño del punto en mm
 # shape = forma de los puntos, consultar catálogo (o al 25)
@@ -54,7 +56,8 @@ ggplot(data = mpg) +
 ggplot(data = mpg) + 
   geom_point(mapping = aes(x = displ, y = hwy, color = displ < 4)) 
 
-# FACETS
+# 3. FACETS
+# Los facets(facetas permite hacer matriz de gráficos en una sola visualización)
 # permie hacer un gráfico segmentado por variable categórica
 # facet_wrap(~<Formula>) la variable debe ser categórica
 ggplot(data = mpg) +
@@ -67,13 +70,16 @@ ggplot(data = mpg) +
   facet_grid(drv~cyl)
 
 #Extras
+# Nota cuando usamos una variable para agrupar, si usamos .~ antes de la variables 
+# será agrupación vertical, en cambio si uso después, será vertical. 
 
-# Facet usando el cyl
+# Facet usando otra variables (se crea matriz a partir de otra variable)
 ggplot(data = mpg) +
   geom_point(mapping = aes(x=displ, y = hwy)) +
   facet_grid(.~cyl)
 
-# Facet usando drv, punto después de virulilla, cambia el sentido de agrupación
+# Facet usando drv,punto después de virulilla, cambia el sentido de agrupación
 ggplot(data = mpg) +
   geom_point(mapping = aes(x=displ, y = hwy)) +
   facet_grid(drv~.)
+
